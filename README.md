@@ -45,4 +45,4 @@ The primary analytical limitation stems from the use of **US Corporate Bond Spre
 
 These limitations are acknowledged, but the core findings regarding the structural recession signals and global credit sensitivity remain valid.
 ---
-**Author:** [Inderdeep Thindal](www.linkedin.com/in/inderdeep-thindal) | Economics & Data Analytics
+**Author:** [Inderdeep Thindal](https://www.linkedin.com/in/inderdeep-thindal) | Economics & Data Analytics
