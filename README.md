@@ -22,7 +22,7 @@ I recommend that the portfolio immediately **stress-tests its liability duration
 To ensure statistical robustness and relevance to UK market structure, this analysis follows a strict framework for processing data.
 
 ### 1. Data Sourcing 
-* **Source:** ALl time-series data were acquired via the **FRED API**, utilising a custom Python loop structure to ensure reliable data fetching.
+* **Source:** ALl time-series data were acquired via the **FRED API** (https://fred.stlouisfed.org/), utilising a custom Python loop structure to ensure reliable data fetching.
 * **Core Variables:** The model integrates UK Government Bond yields ("GILT10Y"), Interbank rates ("IR3M") and UK CPI Inflation ("CPI")
 *  **Global Risk Proxy:** Crucially, I had an error using UK Corporate Bond Spreads, so instead used US Corporate Bond Spreads as a proxy given the high correlation beteen major credit markets.
 
@@ -44,3 +44,5 @@ The primary analytical limitation stems from the use of **US Corporate Bond Spre
 * **Temporal Lag:** While correlated, the transmission of risk from the US to the UK may involve a short temporal lag. the model assumes a simultaneous relationship, which could slighlty misrepresent the precise timing of the **Risk Differential** decoupling.
 
 These limitations are acknowledged, but the core findings regarding the structural recession signals and global credit sensitivity remain valid.
+---
+**Author:** [Inderdeep Thindal](www.linkedin.com/in/inderdeep-thindal) | Economics & Data Analytics
