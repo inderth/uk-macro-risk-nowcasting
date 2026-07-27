@@ -32,9 +32,9 @@ Libraries such as **Pandas**, for data manipulation; **NumPy**, for numerical op
 ### 3. Metric Construction
 I constructed 3 advanced metrics to assess structural market risk:
 
-* **Yield Curve Slope (Recession Signal):** Calculated as the spread between the **10-Year Gilt Yield** and the **3-Month Interbank Rate**. A negative value (inversion) is used as a primary indicator of recession.
-* **Real Interest Rate (Purchasing Power):** Derived by adjusting the nominal 3-Month Interbank Rate for Inflation, measuring the true cost of capital in the economy.
-* **Risk Differential (Credit Market Decoupling):** To measure the breakdown in standard hedging relationships, I calculated the **12-Month Rolling Correlation** between the recession signal (Yield Curve) and the **Corporate Bond Spread**. This measures whether credit markets are accurately pricing in macroeconomic risk signalled by the bond market. (Note, the Title of this chart has a spelling error that I saw while auditing my final work)
+* **Yield Curve Slope (Recession Signal):** Calculated as the spread between the **10-Year Gilt Yield** and the **3-Month Interbank Rate**. A negative value (inversion) is used as a primary indicator of recession. ![Yield Curve Slope](yield%20curve%20slope.png)
+* **Real Interest Rate (Purchasing Power):** Derived by adjusting the nominal 3-Month Interbank Rate for Inflation, measuring the true cost of capital in the economy. ![Real Interest Rate](UK%20real%20interest.png)
+* **Risk Differential (Credit Market Decoupling):** To measure the breakdown in standard hedging relationships, I calculated the **12-Month Rolling Correlation** between the recession signal (Yield Curve) and the **Corporate Bond Spread**. This measures whether credit markets are accurately pricing in macroeconomic risk signalled by the bond market. (Note, the Title of this chart has a spelling error that I saw while auditing my final work) ![Rolling Correlation](rolling%20correlation%20Yield%20Slope%20vs%20House%20price%20growth.png)
 
 ### 4. Potential Limitations
 
